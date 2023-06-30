@@ -61,25 +61,53 @@ function disable_buttons()
     }
 }
 
-function runalgo()
-{
-    disable_buttons();
+// function runalgo()
+// {
+//     disable_buttons();
 
+//     this.classList.add("butt_selected");
+//     switch(this.innerHTML)
+//     {
+//         case "Bubble":Bubble();
+//                         break;
+//         case "Selection":Selection_sort();
+//                         break;
+//         case "Insertion":Insertion();
+//                         break;
+//         case "Merge":Merge();
+//                         break;
+//         case "Quick":Quick();
+//                         break;
+//         case "Heap":Heap();
+//                         break;
+//     }
+// }
+function runalgo() {
+    disable_buttons();
+  
     this.classList.add("butt_selected");
-    switch(this.innerHTML)
-    {
-        case "Bubble":Bubble();
-                        break;
-        case "Selection":Selection_sort();
-                        break;
-        case "Insertion":Insertion();
-                        break;
-        case "Merge":Merge();
-                        break;
-        case "Quick":Quick();
-                        break;
-        case "Heap":Heap();
-                        break;
+    switch (this.innerHTML) {
+      case "Bubble":
+        Bubble();
+        break;
+      case "Selection":
+        Selection_sort();
+        break;
+      case "Insertion":
+        Insertion();
+        break;
+      case "Merge":
+        Merge();
+        break;
+      case "Quick":
+        Quick();
+        break;
+      case "Heap":
+        Heap();
+        break;
     }
-}
+  }
+  
+ 
+  
 
